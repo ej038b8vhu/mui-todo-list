@@ -12,7 +12,7 @@ export const theme = {
 export function resort(arr = [], isSwitchOn) {
   const copyTodos = [...arr];
   if (isSwitchOn) {
-    /* 如果排序鈕開啟, 將原有 Todos 依加入時間排序後, 區分為 “未完成 ＆ 未完成” 回傳 */
+    /* 如果排序鈕開啟, 將原有 Todos 依加入時間排序後, 區分為 “未完成 ＆ 已完成” 回傳 */
     copyTodos.sort((a, b) => (a.id > b.id ? 1 : -1));
     let finishTodos = [];
     let unfinishTodos = [];
