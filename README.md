@@ -21,5 +21,5 @@
 
 ### Migrate to Vite from Create React App (CRA)
 
-- To reduce project physical size 300 MB
+- Reduce project physical size over 300 MB.
 - [step refer](https://www.robinwieruch.de/vite-create-react-app/)
